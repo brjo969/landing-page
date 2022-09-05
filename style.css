@@ -1,4 +1,16 @@
-nav {
+body {
+    padding: 1cm 5cm;
+    margin: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
     display: flex;
     justify-content: space-between;
 }
@@ -18,16 +30,21 @@ li {
     margin: 10px;
 }
 
-.one {
+.site-name {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.one {
+    flex-direction: row;
     justify-content: space-between;
 }
 
 .about-me {
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    justify-content: baseline;
+    align-items: center;
 }
 
 .figs {
@@ -40,6 +57,54 @@ figure {
     display: flex;
     flex-direction: column;
     align-items: center;
-    size: 50px 50px;
-    flex-wrap: wrap;
+    width: 5cm;
+    height: auto;
+}
+
+figure img {
+    border-radius: 25px;
+    border: 2px solid #7903ff;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+}
+
+.three {
+    background-color: rgb(205, 202, 202);
+    display: flex;
+    justify-content: center;
+}
+
+.four {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-block {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 5cm;
+    height: auto;
+}
+
+header,
+.one {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 1000;
 }
