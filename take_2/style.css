@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    width: 25%;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header,
+.sec1 {
+    background-color: #1F2937;
+}
+
+.sec1 {}
